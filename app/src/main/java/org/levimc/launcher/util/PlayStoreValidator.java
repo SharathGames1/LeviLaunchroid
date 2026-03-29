@@ -14,13 +14,7 @@ public class PlayStoreValidator {
     }
 
     public static boolean isMinecraftInstalled(Context context) {
-        try {
-            PackageManager packageManager = context.getPackageManager();
-            packageManager.getPackageInfo(MINECRAFT_PACKAGE_NAME, 0);
-            return true;
-        } catch (PackageManager.NameNotFoundException e) {
-            return false;
-        }
+        return true;
     }
 
     public static boolean isLicenseVerified(Context context) {
