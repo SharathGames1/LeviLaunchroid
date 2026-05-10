@@ -1,3 +1,7 @@
+This a patched version of Levilauncher for Android that removes Play Store requirements.
+Also the APK is spoofed to BGMO for more stable performance 
+
+#Original Description 
 <div align="center">
 
 ![LeviLauncher Logo](https://avatars.githubusercontent.com/u/78095377?s=200&v=4)
